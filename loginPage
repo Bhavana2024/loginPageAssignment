@@ -29,30 +29,31 @@
 </html>
 
 **********css code*************
-.details{
+ .details{
      
     margin:200px;
     background-color: beige;
     height:350px;
     width:300px;
     padding-left:30px;
-    box-shadow:20px 20px 50px;
+    box-shadow:10px 20px 50px;
     border-radius: 30px;
+    margin-left: 550px;
 }
 .logins{
     align-items: center;
-    border: black;
+border: black;
 }
 .name{
     height:100px;
-    width:50px;
-    border: black;
+    width:280px;
+    border:2px solid  black;
    
 }
 .pass{
     height:100px;
-    width:50px;
-    border: black;
+    width:280px;
+    border:1px solid black;
      
 
 }
