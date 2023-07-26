@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="img.css">
+</head>
+<body>
+    <div class="details"> 
+    <div class="logins">
+        <center> <H1>Login</H1></center>
+    </div>
+    <div class="name">
+        <h3> Username</h3>
+        <label for="nam"></label>
+        <input type="text" id="nam" placeholder="enter name ">
+    </div> 
+    <br>  <div class="pass">
+        <label for="pas">Password</label>
+        <input type="password" id="pas" placeholder="enter password">
+        </div>
+        <br>
+        
+            <center><button>login</button></center> 
+    
+    </div>
+</body>
+</html>
+
+**********css code*************
+.details{
+     
+    margin:200px;
+    background-color: beige;
+    height:350px;
+    width:300px;
+    padding-left:30px;
+    box-shadow:20px 20px 50px;
+    border-radius: 30px;
+}
+.logins{
+    align-items: center;
+    border: black;
+}
+.name{
+    height:100px;
+    width:50px;
+    border: black;
+   
+}
+.pass{
+    height:100px;
+    width:50px;
+    border: black;
+     
+
+}
+button{
+    width:50px;
+    
+    background-color: green;
+align-items: center;
+
+}
